@@ -1,8 +1,32 @@
 {
-    "login": 
-        {"token": "sjdidaijaisddsaj" , "user":{
-            "userName": "João andré",
-            "userEmail": "joao@joao.com"
-        }}
-    
+  "login": {
+    "token": "sjdidaijaisddsaj",
+    "user": {
+      "userName": "João andré",
+      "userEmail": "joao@joao.com"
+    }
+  },
+  "user": [
+    {
+      "username": "@joao123",
+      "name": "João",
+      "email": "joao123@gmail.com",
+      "password": "aimdsisopamds",
+      "id": 1
+    },
+    {
+      "username": "@pedro123",
+      "name": "Pedro",
+      "email": "Pedro123@gmail.com",
+      "password": "werewtrgrgrt",
+      "id": 2
+    },
+    {
+      "username": "shitonmynike",
+      "password": "21311233231",
+      "name": "jaodosa",
+      "email": "nkethliyndemirandamsadsadsadasasorais@gmail.com",
+      "id": 3
+    }
+  ]
 }

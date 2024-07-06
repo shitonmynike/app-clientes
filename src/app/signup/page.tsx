@@ -1,5 +1,6 @@
 'use client'
-import { signup } from '@/app/actions/actions'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { signup, signupWithPostGress } from '@/app/actions/actions'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import { Button, Input } from '@nextui-org/react'
@@ -39,9 +40,15 @@ export default function SignupPage() {
   const onSubmit: SubmitHandler<InputsSignup> = async (data) => {
     try {
       setIsLoading(true)
-      await signup(data)
+      //      await signup(data)
+      await signupWithPostGress(data)
+      toast.success('Cadastro efetuado', {
+        theme: 'colored',
+        onClose: () => {
+          router.push('/')
+        },
+      })
       setIsLoading(false)
-      router.push('/')
     } catch (error) {
       setIsLoading(false)
       toast.error('Não foi possível cadastrar')

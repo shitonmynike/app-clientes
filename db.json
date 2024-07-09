@@ -28,5 +28,127 @@
       "email": "nkethliyndemirandamsadsadsadasasorais@gmail.com",
       "id": 3
     }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Ana Silva",
+      "role": "Diretora Financeira",
+      "status": "ativo"
+    },
+    {
+      "id": 2,
+      "name": "Carlos Oliveira",
+      "role": "Gerente de Vendas",
+      "status": "ativo"
+    },
+    {
+      "id": 3,
+      "name": "Fernanda Santos",
+      "role": "Analista de Marketing",
+      "status": "inativo"
+    },
+    {
+      "id": 4,
+      "name": "Rodrigo Souza",
+      "role": "CEO",
+      "status": "ativo"
+    },
+    {
+      "id": 5,
+      "name": "Juliana Costa",
+      "role": "Engenheira de Software",
+      "status": "ativo"
+    },
+    {
+      "id": 6,
+      "name": "Lucas Pereira",
+      "role": "Consultor Jurídico",
+      "status": "inativo"
+    },
+    {
+      "id": 7,
+      "name": "Mariana Almeida",
+      "role": "Gerente de Recursos Humanos",
+      "status": "ativo"
+    },
+    {
+      "id": 8,
+      "name": "Paulo Santos",
+      "role": "Analista de Sistemas",
+      "status": "ativo"
+    },
+    {
+      "id": 9,
+      "name": "Beatriz Oliveira",
+      "role": "Designer Gráfico",
+      "status": "inativo"
+    },
+    {
+      "id": 10,
+      "name": "Gustavo Rodrigues",
+      "role": "Coordenador de Projetos",
+      "status": "ativo"
+    },
+    {
+      "id": 11,
+      "name": "Aline Pereira",
+      "role": "Engenheira de Produção",
+      "status": "ativo"
+    },
+    {
+      "id": 12,
+      "name": "Renato Santos",
+      "role": "Analista Financeiro",
+      "status": "inativo"
+    },
+    {
+      "id": 13,
+      "name": "Camila Oliveira",
+      "role": "Gerente de Marketing",
+      "status": "ativo"
+    },
+    {
+      "id": 14,
+      "name": "Felipe Costa",
+      "role": "Analista de Qualidade",
+      "status": "ativo"
+    },
+    {
+      "id": 15,
+      "name": "Isabela Souza",
+      "role": "Consultora de Recursos Humanos",
+      "status": "inativo"
+    },
+    {
+      "id": 16,
+      "name": "Rafael Almeida",
+      "role": "Desenvolvedor de Software",
+      "status": "ativo"
+    },
+    {
+      "id": 17,
+      "name": "Carolina Rodrigues",
+      "role": "Coordenadora de Projetos",
+      "status": "ativo"
+    },
+    {
+      "id": 18,
+      "name": "Thiago Santos",
+      "role": "Designer UX/UI",
+      "status": "inativo"
+    },
+    {
+      "id": 19,
+      "name": "Amanda Lima",
+      "role": "Analista de Compras",
+      "status": "ativo"
+    },
+    {
+      "id": 20,
+      "name": "Marcelo Silva",
+      "role": "Gerente de Operações",
+      "status": "ativo"
+    }
   ]
 }
